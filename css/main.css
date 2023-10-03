@@ -1,0 +1,92 @@
+html {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #212228;
+    color: white;
+}
+
+.sub-color {
+    color: #44CBE1;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+#home-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#profile-section {
+    background-color: #26272E;
+}
+
+#profile-section h2 {
+    font-weight: 700;
+}
+
+#profile-section .img-fluid {
+    width: 70%;
+}
+
+@media screen and (max-width: 992px) {
+    #profile-section .img-fluid {
+        width: 50%;
+    }
+}
+
+.detail {
+    font-weight: 700;
+}
+
+#skills-section .card {
+    background-color: #26272E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#skills-section .sub-color {
+    font-weight: 700;
+}
+
+.progress {
+    background-color: white;
+}
+
+.progress-bar {
+    background-color: #44CBE1;
+}
+
+#skills-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#skills-section .bi {
+    font-size: 50px;
+}
+
+#experiences-section .card {
+    background-color: #26272E;
+}
+
+.horizontal-line {
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+#footer {
+    background-color: #26272E;
+}
+
+#footer .bi {
+    font-size: 2rem;
+}
+
+#footer h1 {
+    font-size: 4rem;
+}
