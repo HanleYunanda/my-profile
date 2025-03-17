@@ -46,6 +46,9 @@
                     <li class="nav-item">
                         <a class="nav-link mx-3" href="#experiences-section">Experiences</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="#projects-section">Projects</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -53,38 +56,33 @@
 
     <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
         <!-- Home -->
-        <section class="container my-3" id="home-section">
-            <h1 class="text-center">Welcome to My Personal Website</h1>
-            <div class="row my-3">
-                <div class="col-md-6 order-md-2">
-                    <img src="img/hero.png" class="img-fluid" alt="home-image">
+        <section class="container-fluid py-5 home-section-bg" id="home-section">
+            <div class="container d-flex flex-column justify-content-center align-items-center py-5">
+                <h1 class="text-center">Welcome to My Personal Website</h1>
+                <h3 class="sub-color">Hello I'm</h3>
+                <h2>Hanley Yunanda Saputra</h2>
+                <div class="mt-3 icon-link">
+                    <a href="whatsapp://send?phone=+6285156678285">
+                        <i class="bi fs-4 me-3 bi-whatsapp"></i>
+                    </a>
+                    <a href="mailto:hanley.saputra@binus.ac.id">
+                        <i class="bi fs-4 mx-3 bi-envelope"></i>
+                    </a>
+                    <a href="https://www.instagram.com/hanleynd.25/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi fs-4 mx-3 bi-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hanley-yunanda-saputra-639a51223/" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi fs-4 mx-3 bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/HanleYunanda" target="_blank" rel="noopener noreferrer">
+                        <i class="bi fs-4 mx-3 bi-github"></i>
+                    </a>
                 </div>
-                <div class="col-md-6 order-md-1 d-flex flex-column justify-content-center">
-                    <h4 class="sub-color">Hello I'm</h4>
-                    <h2>Hanley Yunanda Saputra</h2>
-                    <div class="mt-3 icon-link">
-                        <a href="whatsapp://send?phone=+6285156678285">
-                            <i class="bi me-3 bi-whatsapp"></i>
-                        </a>
-                        <a href="mailto:hanley.saputra@binus.ac.id">
-                            <i class="bi mx-3 bi-envelope"></i>
-                        </a>
-                        <a href="https://www.instagram.com/hanleynd.25/" target="_blank" rel="noopener noreferrer">
-                            <i class="bi mx-3 bi-instagram"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/hanley-yunanda-saputra-639a51223/" target="_blank"
-                            rel="noopener noreferrer">
-                            <i class="bi mx-3 bi-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/HanleYunanda" target="_blank" rel="noopener noreferrer">
-                            <i class="bi mx-3 bi-github"></i>
-                        </a>
-                    </div>
-                    <div class="mt-5">
-                        <a class="btn button-primary"
-                            href="https://drive.google.com/uc?export=download&id=1sjI-5UOgEmIgMvXPdLe1slaSha-wMGEp"
-                            download="Your_File_Name.extension" role="button">Download CV</a>
-                    </div>
+                <div class="my-5">
+                    <a class="btn button-primary"
+                        href="https://drive.google.com/uc?export=download&id=1sjI-5UOgEmIgMvXPdLe1slaSha-wMGEp"
+                        download="Your_File_Name.extension" role="button">Download CV</a>
                 </div>
             </div>
         </section>
@@ -99,30 +97,29 @@
                     <img src="img/PP-Hanley.JPG" class="img-fluid" alt="profile-picture">
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h4 class="sub-color">About Me</h4>
+                    <h3 class="sub-color">About Me</h3>
                     <h2>a Creative and Innovative Tech Entusiast</h2>
-                    <p>I am an undergraduate student majoring in Computer Science at Binus University. Have strong
+                    <p class="fs-5">I am a fresh graduate majoring in Computer Science at Binus University. Have strong
                         analytical skills and critical thinking skills. Easily adapt in various organizations and
-                        committed
-                        to contributing my skills in computer science field.</p>
+                        committed to contributing my skills in computer science field.</p>
                     <div class="row">
                         <div class="col-6">
                             <div class="profile-detail">
-                                <div class="detail sub-color">Name</div>
+                                <div class="detail sub-color fs-5">Name</div>
                                 <div>Hanley Yunanda Saputra</div>
                             </div>
                             <div class="profile-detail">
-                                <div class="detail sub-color">Birthday</div>
-                                <div>Malang, 25 June 2023</div>
+                                <div class="detail sub-color fs-5">Birthday</div>
+                                <div>Malang, 25 June 2003</div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="profile-detail">
-                                <div class="detail sub-color">Age</div>
-                                <div>20 years old</div>
+                                <div class="detail sub-color fs-5">Age</div>
+                                <div>22 years old</div>
                             </div>
                             <div class="profile-detail">
-                                <div class="detail sub-color">Address</div>
+                                <div class="detail sub-color fs-5">Address</div>
                                 <div>Argo Tunggal 19 Lawang</div>
                             </div>
                         </div>
@@ -131,6 +128,7 @@
             </div>
         </section>
 
+        <!-- Skill -->
         <section class="container my-3" id="skills-section">
             <h1 class="my-5 text-center">My <span class="sub-color">Skills</span></h1>
             <div class="row">
@@ -144,31 +142,7 @@
                             <h3 class="card-title text-center"><span class="sub-color">H</span>ard <span
                                     class="sub-color">S</span>kills</h3>
                             <div class="progress-container mb-2">
-                                <h6>Vue JS</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
-                                        style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="progress-container mb-2">
-                                <h6>Bootstrap</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
-                                        style="width: 87%;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">87%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="progress-container mb-2">
-                                <h6>Laravel</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
-                                        style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="progress-container mb-2">
-                                <h6>Golang</h6>
+                                <h6>React JS</h6>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-label="Example with label"
                                         style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
@@ -176,10 +150,34 @@
                                 </div>
                             </div>
                             <div class="progress-container mb-2">
-                                <h6>Android Studio & Kotlin</h6>
+                                <h6>Bootstrap</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-container mb-2">
+                                <h6>Laravel</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-container mb-2">
+                                <h6>Golang</h6>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-label="Example with label"
                                         style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-container mb-2">
+                                <h6>MERN Stack</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                        style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
                                     </div>
                                 </div>
                             </div>
@@ -257,6 +255,7 @@
             </div>
         </section>
 
+        <!-- Education -->
         <section class="container-fluid" id="education-section">
             <div class="container py-5">
                 <h1 class="my-5 text-center">Education</h1>
@@ -266,7 +265,7 @@
                             <div class="card-body p-4">
                                 <i class="fas fa-brain fa-2x mb-3"></i>
                                 <h4>Binus Univeristy</h4>
-                                <p class="small text-white-50 mb-4">2021 - 2025 (expected)</p>
+                                <p class="small text-white-50 mb-4">2021 - 2025</p>
                                 <h6>Undergraduate Student</h6>
                                 <p>Computer Science - Digital Creative Technology</p>
                             </div>
@@ -294,6 +293,35 @@
         <!-- Experiences -->
         <section class="container my-3" id="experiences-section">
             <h1 class="text-center my-5">Experiences</h1>
+
+            <!-- Polytron -->
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="py-5 sticky-top">
+                        <h1>Polytron</h1>
+                        <h3>PT Hartono Istana Teknologi</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="experience-container">
+                        <div class="card mb-3">
+                            <div class="card-header">Feb 2024 - Feb 2025</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Web Developer (Intern)</h5>
+                                <ul class="card-text">
+                                    <li>Develop new program and menu integrated in Polytron's ERP</li>
+                                    <li>Make update for existing program</li>
+                                    <li>Give user support</li>
+                                    <li>Debug specific problem cases experienced by users</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="horizontal-line">
+
             <!-- Himti -->
             <div class="row my-5">
                 <div class="col-md-6">
@@ -305,7 +333,7 @@
                 <div class="col-md-6">
                     <div class="experience-container">
                         <div class="card mb-3">
-                            <div class="card-header">Feb 2023 - Present</div>
+                            <div class="card-header">Feb 2023 - Feb 2024</div>
                             <div class="card-body">
                                 <h5 class="card-title">President of HIMTI Malang</h5>
                                 <ul class="card-text">
@@ -379,8 +407,7 @@
             <div class="row my-5">
                 <div class="col-md-6">
                     <div class="py-5 sticky-top">
-                        <h1>BINUS</h1>
-                        <h1>Univeristy</h1>
+                        <h1>Binus University</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -429,57 +456,141 @@
                             </div>
                         </div>
                     </div>
-                    <div class="experience-container">
-                        <div class="card mb-3">
-                            <div class="card-header">Apr 2022 - Aug 2022</div>
-                            <div class="card-body">
-                                <h5 class="card-title">Staff of PBP Division Techno 2022</h5>
-                                <ul class="card-text">
-                                    <li>Preparing techno sub-activities, namely PBP</li>
-                                    <li>Become MC for PBP activities</li>
-                                    <li>Manage technical things during the PBP</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="experience-container">
-                        <div class="card mb-3">
-                            <div class="card-header">May 2022 - Jun 2022</div>
-                            <div class="card-body">
-                                <h5 class="card-title">Coordinator of Technical Division Digifest 2022</h5>
-                                <ul class="card-text">
-                                    <li>Coordinate and supervise technical division P</li>
-                                    <li>Responsible for borrowing room and equipment to be used during the event</li>
-                                    <li>Be the MC on the final day of the competition</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- Projects -->
+        <section class="container my-3" id="projects-section">
+            <h1 class="text-center my-5">Projects</h1>
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="card mb-3 clickable px-3" onclick="openLink(`github.com/HanleYunanda/b-room-go`)">
+                        <div class="row g-0">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                <img src="./img/logo/Go-Logo_Aqua.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                <h5 class="card-title">B-Room</h5>
+                                <div class="mb-1">
+                                    <span class="badge rounded-pill text-bg-primary">React JS</span>
+                                    <span class="badge rounded-pill text-bg-primary">Golang</span>
+                                </div>
+                                <p class="card-text fs-6">Website based aplication used to booking discussion room in Binus@Malang</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card mb-3 clickable px-3" onclick="openLink(`github.com/HanleYunanda/php-testakhir-revisi`)">
+                        <div class="row g-0">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                <img src="./img/logo/new-php-logo.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Stock Management</h5>
+                                <div class="mb-1">
+                                    <span class="badge rounded-pill text-bg-primary">PHP</span>
+                                    <span class="badge rounded-pill text-bg-primary">JS</span>
+                                    <span class="badge rounded-pill text-bg-primary">Ajax</span>
+                                </div>
+                                <p class="card-text fs-6">Final test for PHP training internship at Polytron. Creating an application for warehouse stock management using PHP Native</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card mb-3 clickable px-3" onclick="openLink(`github.com/HanleYunanda/profileWeb-midExam`)">
+                        <div class="row g-0">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                <img src="./img/logo/Laravel-Logo.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Dynamic Profile Website</h5>
+                                <div class="mb-1">
+                                    <span class="badge rounded-pill text-bg-primary">JS</span>
+                                    <span class="badge rounded-pill text-bg-primary">Ajax</span>
+                                    <span class="badge rounded-pill text-bg-primary">Laravel</span>
+                                </div>
+                                <p class="card-text fs-6">Mid exam project for Web Development Course. Making a dynamic portfolio website that have CRUD feature</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card mb-3 clickable px-3" onclick="openLink(`github.com/HanleYunanda/dashboard-himti`)">
+                        <div class="row g-0">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                <img src="./img/logo/Laravel-Logo.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Dashboard HIMTI</h5>
+                                <div class="mb-1">
+                                    <span class="badge rounded-pill text-bg-primary">Bootstrap</span>
+                                    <span class="badge rounded-pill text-bg-primary">Laravel</span>
+                                </div>
+                                <p class="card-text fs-6">Dashboard project for managing and monitoring organization events, members, and projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card mb-3 clickable px-3" onclick="openLink(`drive.google.com/drive/folders/1OkhEq3ru2b3S_vkaNyNTGXDg6t4DNCzB?usp=sharing`)">
+                        <div class="row g-0">
+                            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                                <img src="./img/logo/python-logo-only.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                <h5 class="card-title">Python Project Collections</h5>
+                                <div class="mb-1">
+                                    <span class="badge rounded-pill text-bg-primary">Python</span>
+                                    <span class="badge rounded-pill text-bg-primary">Data Analytics</span>
+                                </div>
+                                <p class="card-text fs-6">A collection of python projects, such as implementation of numerical methods, computational biology, and data analysis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <!-- Footer -->
-        <section class="container-fluid mt-5 py-5 d-flex justify-content-center" id="footer">
+        <section class="container-fluid mt-5 pt-5 pb-3 d-flex justify-content-center" id="footer">
             <div class="container d-flex flex-column align-items-center">
                 <h6>Hanley's Personal Website</h6>
-                <h1>Find me HERE</h1>
+                <h2>Find me HERE</h2>
                 <div class="mt-3 icon-link">
                     <a href="whatsapp://send?phone=+6285156678285">
-                        <i class="bi me-3 bi-whatsapp"></i>
+                        <i class="bi me-3 bi-whatsapp fs-4"></i>
                     </a>
                     <a href="mailto:hanley.saputra@binus.ac.id">
-                        <i class="bi mx-3 bi-envelope"></i>
+                        <i class="bi mx-3 bi-envelope fs-4"></i>
                     </a>
                     <a href="https://www.instagram.com/hanleynd.25/" target="_blank" rel="noopener noreferrer">
-                        <i class="bi mx-3 bi-instagram"></i>
+                        <i class="bi mx-3 bi-instagram fs-4"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/hanley-yunanda-saputra-639a51223/" target="_blank"
                         rel="noopener noreferrer">
-                        <i class="bi mx-3 bi-linkedin"></i>
+                        <i class="bi mx-3 bi-linkedin fs-4"></i>
                     </a>
                     <a href="https://github.com/HanleYunanda" target="_blank" rel="noopener noreferrer">
-                        <i class="bi mx-3 bi-github"></i>
+                        <i class="bi mx-3 bi-github fs-4"></i>
                     </a>
                 </div>
             </div>
@@ -490,6 +601,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    
+    <script>
+        function openLink(link) {
+            window.open(`https://${link}`);
+        }
+    </script>
+    
 </body>
 
 </html>

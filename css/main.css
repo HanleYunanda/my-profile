@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -20,6 +20,26 @@ body {
     background-color: transparent !important;
     color: #44CBE1 !important;
   }
+
+.home-section-bg {
+    position: relative;
+    /* height: 100vh; */
+    overflow: hidden; 
+}
+
+.home-section-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/IMG_6520.png');
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+    z-index: -1;
+}
 
 #home-section h1 {
     font-size: 4rem;
@@ -82,6 +102,11 @@ body {
     border: none;
     height: 2px;
     background-color: white;
+}
+
+#projects-section .card {
+    background-color: #26272E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 #footer {
@@ -245,4 +270,8 @@ body {
 .icon-link a {
     text-decoration: none;
     color: white;
+}
+
+.clickable {
+    cursor: pointer;
 }
